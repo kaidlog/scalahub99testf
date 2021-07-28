@@ -1,10 +1,10 @@
 <template>
-$END$
+
 </template>
 
 <script>
 export default {
-name: "Finishorder.vue"
+  name: "Finishorder.vue"
 }
 </script>
 
