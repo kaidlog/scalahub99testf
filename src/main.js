@@ -8,7 +8,7 @@ import ElementPlus from 'element-plus';
 import 'element-plus/lib/theme-chalk/index.css';
 
 
-axios.defaults.baseURL = 'http://127.0.0.1:8080'
+axios.defaults.baseURL = 'https://scalahub99test.herokuapp.com'
 // axios.defaults.baseURL = 'https://apidjackets.codewithstein.com'
 
 createApp(App).use(store).use(router, axios).use(ElementPlus).mount('#app')
